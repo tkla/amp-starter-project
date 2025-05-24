@@ -15,14 +15,16 @@ function App() {
   // This must match the integration name in integrations/amp.yaml
   const integration = "hubspotCRM";
 
+  // You can learn more about the parameters in
+  // https://docs.withampersand.com/embeddable-ui-components#install-integration
   return (
-    <AmpersandProvider options={options}>
+    <AmpersandProvider options = {options}>
       <InstallIntegration 
-        integration= {integration}
-        consumerName= "demo-user-name"
-        consumerRef= "demo-user-id"
-        groupName="demo-company-name"
-        groupRef="demo-company-id"
+        integration = {integration}
+        consumerName = "demo-user-name"
+        consumerRef = "demo-user-id"
+        groupName = "demo-company-name"
+        groupRef = "demo-company-id"
       />
     </AmpersandProvider>
   )

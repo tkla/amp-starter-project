@@ -25,6 +25,9 @@ This is a starter project for [Ampersand](https://www.withampersand.com). It con
 2. Create an API key in the [API Keys](https://dashboard.withampersand.com/projects/_/api-keys) section of the Ampersand dashboard.
 3. Create a destination in the [Destinations](https://dashboard.withampersand.com/projects/_/destinations) section of the Ampersand dashboard called `defaultWebhook`. If you don't have a webhook, you can create a temporary one at [https://play.svix.com](https://play.svix.com).
 4. If you want to use the HubSpot integration in this repo, you'll need to create a HubSpot account and HubSpot App by following the instructions in the [Hubspot guide](https://docs.withampersand.com/provider-guides/hubspot). If you wish to use another integration instead, follow the appropriate [provider guide](https://docs.withampersand.com/provider-guides/overview).
+  - Note: I'm currently using this starter demo repo to setup an integration with Atlassian's Jira Service Mangement. Referencing this [example yaml](https://github.com/amp-labs/samples/blob/main/atlassian/amp.yaml)
+  - Also this might sound obvious but when installing the integration please use your Atlassian workspace name,
+  NOT your integration name, or Ampersand Project name.
 5. Download the [Ampersand CLI](https://docs.withampersand.com/cli/overview) and run `amp login` to authenticate.
 
 ## Running the project
